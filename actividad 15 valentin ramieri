@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+   float lado1, lado2, perimetro, superficie;
+   printf("bienvenido a la actividad 15, realizado por valentin ramieri\n ");
+   printf("Ingrese el valor del primer lado del rectangulo:\n ");
+   scanf("%f", &lado1);
+
+   printf("ingrese el valor del segundo lado del rectangulo: \n");
+   scanf("%f", &lado2);
+   perimetro = 2 * (lado1 + lado2);
+   superficie = lado1 * lado2;
+   printf("La superficie del rectangulo es: %.2f \n", superficie);
+   printf("El perimetro del rectangulo es: %.2f \n", perimetro);
+   
+   return 0;
+}
