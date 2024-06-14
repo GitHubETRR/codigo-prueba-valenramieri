@@ -1,0 +1,19 @@
+
+
+#include <stdio.h>
+#include <math.h>
+
+float const PI = 3.14;
+
+int main(){
+   float R, A;
+   printf("bienvenido a la actividad 18 realizado por Valentin Ramieri\n")
+   printf("Ingrese el valor de su radio:\n ");
+   scanf("%f", &R);
+
+   A = PI * R * R;
+
+    printf("El valor de su area es: %.2f", A);
+
+   return 0;
+}
