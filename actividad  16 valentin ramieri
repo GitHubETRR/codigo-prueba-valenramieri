@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+   float superficie, lado, perimetro;
+   printf("bienvenido a la actividad 16 realizada por valentin ramieri \n");
+   printf("Ingrese el valor de la superficie:\n ");
+   scanf("%f", &superficie);
+
+   lado = sqrt(superficie);
+   perimetro = 4 * lado;
+   printf("El perimetro del cuadrado es: %.2f \n", perimetro);
+   
+   return 0;
+}
