@@ -1,0 +1,21 @@
+int main()
+
+{
+    int var1;
+    int var2;
+    int var3;
+    
+    printf("ingrese un valor para sumar mayor a 10   ");
+    scanf("%d", &var1);
+    printf("ingrese segundo valor mayor a 10   ");
+    scanf(" %d", &var2);
+     var3 = var1+var2;
+     printf("tu resultado es %d  ", var3);
+    if((var1>10)&&(var2>10)){
+        
+    }else{
+        printf("  no cumpliste con los requisitos");
+    }
+    
+    return 0;
+}
